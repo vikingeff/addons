@@ -1,0 +1,211 @@
+------------------------------------------------------------------------
+r10 | gwiz665 | 2010-10-31 02:07:39 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/ColorInventory.lua
+
+preliminary support for combuctor
+------------------------------------------------------------------------
+r9 | gwiz665 | 2010-10-30 03:19:36 +0000 (Sat, 30 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/libs
+   A /trunk/libs/AceConfig-3.0
+   A /trunk/libs/AceConfig-3.0/AceConfig-3.0.lua
+   A /trunk/libs/AceConfig-3.0/AceConfig-3.0.xml
+   A /trunk/libs/AceConfig-3.0/AceConfigCmd-3.0
+   A /trunk/libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+   A /trunk/libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.xml
+   A /trunk/libs/AceConfig-3.0/AceConfigDialog-3.0
+   A /trunk/libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   A /trunk/libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.xml
+   A /trunk/libs/AceConfig-3.0/AceConfigRegistry-3.0
+   A /trunk/libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+   A /trunk/libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.xml
+   A /trunk/libs/AceConsole-3.0
+   A /trunk/libs/AceConsole-3.0/AceConsole-3.0.lua
+   A /trunk/libs/AceConsole-3.0/AceConsole-3.0.xml
+   A /trunk/libs/AceDB-3.0
+   A /trunk/libs/AceDB-3.0/AceDB-3.0.lua
+   A /trunk/libs/AceDB-3.0/AceDB-3.0.xml
+   A /trunk/libs/AceEvent-3.0
+   A /trunk/libs/AceEvent-3.0/AceEvent-3.0.lua
+   A /trunk/libs/AceEvent-3.0/AceEvent-3.0.xml
+   A /trunk/libs/AceGUI-3.0
+   A /trunk/libs/AceGUI-3.0/AceGUI-3.0.lua
+   A /trunk/libs/AceGUI-3.0/AceGUI-3.0.xml
+   A /trunk/libs/AceGUI-3.0/widgets
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-BlizOptionsGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-SimpleGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Button.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+   A /trunk/libs/AceLocale-3.0
+   A /trunk/libs/AceLocale-3.0/AceLocale-3.0.lua
+   A /trunk/libs/AceLocale-3.0/AceLocale-3.0.xml
+   A /trunk/libs/CallbackHandler-1.0
+   A /trunk/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
+   A /trunk/libs/CallbackHandler-1.0/CallbackHandler-1.0.xml
+   A /trunk/libs/LibGratuity-3.0
+   A /trunk/libs/LibGratuity-3.0/LibGratuity-3.0.lua
+   A /trunk/libs/LibGratuity-3.0/LibGratuity-3.0.toc
+   A /trunk/libs/LibGratuity-3.0/LibStub
+   A /trunk/libs/LibGratuity-3.0/LibStub/LibStub.lua
+   A /trunk/libs/LibGratuity-3.0/lib.xml
+   A /trunk/libs/LibStub
+   A /trunk/libs/LibStub/LibStub.lua
+   A /trunk/libs/LibStub/LibStub.toc
+
+testing the new pkgmeta
+------------------------------------------------------------------------
+r8 | gwiz665 | 2010-10-30 03:05:49 +0000 (Sat, 30 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/ColorInventory.lua
+   D /trunk/libs/AceAddon-3.0
+   D /trunk/libs/AceConfig-3.0
+   D /trunk/libs/AceConsole-3.0
+   D /trunk/libs/AceDB-3.0
+   D /trunk/libs/AceEvent-3.0
+   D /trunk/libs/AceGUI-3.0
+   D /trunk/libs/AceLocale-3.0
+   D /trunk/libs/CallbackHandler-1.0
+   D /trunk/libs/LibGratuity-3.0
+   D /trunk/libs/LibStub
+
+Fix for double libraries. cursed pkgmeta!
+------------------------------------------------------------------------
+r7 | gwiz665 | 2010-10-30 01:32:54 +0000 (Sat, 30 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/ColorInventory.lua
+   M /trunk/ColorInventory.toc
+   A /trunk/colorFrame.blp
+
+Changed to own frame file
+------------------------------------------------------------------------
+r6 | gwiz665 | 2010-10-26 19:08:05 +0000 (Tue, 26 Oct 2010) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+   A /trunk/TODO.txt
+   M /trunk/embeds.xml
+   D /trunk/libs/AceLibrary
+
+removed unused library
+------------------------------------------------------------------------
+r3 | gwiz665 | 2010-10-25 23:35:30 +0000 (Mon, 25 Oct 2010) | 3 lines
+Changed paths:
+   M /trunk/ColorInventory.lua
+   M /trunk/ColorInventory.toc
+   M /trunk/Locales/enUS.lua
+   M /trunk/libs/LibStub/LibStub.toc
+
+release v. 1.1
+
+Added option to always color glyphs according to their type, no matter what the play class.
+------------------------------------------------------------------------
+r2 | gwiz665 | 2010-10-23 00:09:00 +0000 (Sat, 23 Oct 2010) | 1 line
+Changed paths:
+   A /trunk/ColorInventory.lua
+   A /trunk/ColorInventory.toc
+   A /trunk/Locales
+   A /trunk/Locales/enUS.lua
+   A /trunk/Locales/locales.xml
+   A /trunk/embeds.xml
+   A /trunk/libs
+   A /trunk/libs/AceAddon-3.0
+   A /trunk/libs/AceAddon-3.0/AceAddon-3.0.lua
+   A /trunk/libs/AceAddon-3.0/AceAddon-3.0.xml
+   A /trunk/libs/AceBucket-3.0
+   A /trunk/libs/AceBucket-3.0/AceBucket-3.0.lua
+   A /trunk/libs/AceBucket-3.0/AceBucket-3.0.xml
+   A /trunk/libs/AceConfig-3.0
+   A /trunk/libs/AceConfig-3.0/AceConfig-3.0.lua
+   A /trunk/libs/AceConfig-3.0/AceConfig-3.0.xml
+   A /trunk/libs/AceConfig-3.0/AceConfigCmd-3.0
+   A /trunk/libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+   A /trunk/libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.xml
+   A /trunk/libs/AceConfig-3.0/AceConfigDialog-3.0
+   A /trunk/libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   A /trunk/libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.xml
+   A /trunk/libs/AceConfig-3.0/AceConfigRegistry-3.0
+   A /trunk/libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+   A /trunk/libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.xml
+   A /trunk/libs/AceConsole-3.0
+   A /trunk/libs/AceConsole-3.0/AceConsole-3.0.lua
+   A /trunk/libs/AceConsole-3.0/AceConsole-3.0.xml
+   A /trunk/libs/AceDB-3.0
+   A /trunk/libs/AceDB-3.0/AceDB-3.0.lua
+   A /trunk/libs/AceDB-3.0/AceDB-3.0.xml
+   A /trunk/libs/AceEvent-3.0
+   A /trunk/libs/AceEvent-3.0/AceEvent-3.0.lua
+   A /trunk/libs/AceEvent-3.0/AceEvent-3.0.xml
+   A /trunk/libs/AceGUI-3.0
+   A /trunk/libs/AceGUI-3.0/AceGUI-3.0.lua
+   A /trunk/libs/AceGUI-3.0/AceGUI-3.0.xml
+   A /trunk/libs/AceGUI-3.0/widgets
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-BlizOptionsGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Button.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-DropDownGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Frame.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-InlineGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-ScrollFrame.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-SimpleGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-TabGroup.lua
+   A /trunk/libs/AceGUI-3.0/widgets/AceGUIWidget-TreeGroup.lua
+   A /trunk/libs/AceHook-3.0
+   A /trunk/libs/AceHook-3.0/AceHook-3.0.lua
+   A /trunk/libs/AceHook-3.0/AceHook-3.0.xml
+   A /trunk/libs/AceLibrary
+   A /trunk/libs/AceLibrary/AceLibrary.lua
+   A /trunk/libs/AceLocale-3.0
+   A /trunk/libs/AceLocale-3.0/AceLocale-3.0.lua
+   A /trunk/libs/AceLocale-3.0/AceLocale-3.0.xml
+   A /trunk/libs/CallbackHandler-1.0
+   A /trunk/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
+   A /trunk/libs/CallbackHandler-1.0/CallbackHandler-1.0.xml
+   A /trunk/libs/LibGratuity-3.0
+   A /trunk/libs/LibGratuity-3.0/Changelog-LibGratuity-3.0-r42.txt
+   A /trunk/libs/LibGratuity-3.0/LibGratuity-3.0.lua
+   A /trunk/libs/LibGratuity-3.0/LibStub
+   A /trunk/libs/LibGratuity-3.0/LibStub/LibStub.lua
+   A /trunk/libs/LibStub
+   A /trunk/libs/LibStub/LibStub.lua
+   A /trunk/libs/LibStub/LibStub.toc
+
+Release build 1.0
+------------------------------------------------------------------------
+r1 | root | 2010-10-22 23:49:52 +0000 (Fri, 22 Oct 2010) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"colorinventory/mainline: Initial Import"
+------------------------------------------------------------------------

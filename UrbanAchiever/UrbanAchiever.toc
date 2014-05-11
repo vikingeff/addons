@@ -1,0 +1,19 @@
+﻿## Interface: 50400
+## Title: Urban Achiever
+## Author: Syzgyn, Tomate
+## Notes: Improved Achievement Frame
+## Notes-frFR: Fenêtre de Hauts Faits améliorée
+## Notes-zhTW:改進成就框架
+## Notes-zhCN:改进成就框架
+## Version 15.7.147
+## OptionalDeps: Blizzard_AchievementUI
+## SavedVariables: UASV
+## SavedVariablesPerCharacter: UASVPC
+
+Embeds.xml
+Locale\Locales.xml
+bindings.xml
+
+Main.lua
+FactionSpecificAchievements.lua
+Options.lua

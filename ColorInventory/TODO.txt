@@ -1,0 +1,2 @@
+- Change from AceHook to either LibTipHooker or "raw" hooking
+- Integrate with Combuctor, OneBag and/or Bagnon.
